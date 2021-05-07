@@ -11,7 +11,7 @@ export default Weather = ({ temp }) => {
 };
 
 Weather.propTypes = {
-  temp: PropTypes.number,
+  temp: PropTypes.number.isRequired,
 };
 
 const styles = StyleSheet.create({
